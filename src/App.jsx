@@ -5,8 +5,10 @@ import Navigator from "./config/Navigator"
 const App = () => {
   return (
     <BrowserRouter>
+    <div className="uppercase font-['Bubblez']">
       <Navbar />
       <Navigator />
+    </div>
     </BrowserRouter>
   )
 }

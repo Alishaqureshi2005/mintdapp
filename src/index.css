@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @font-face{
-    font-family: 'Inter';   
-    src: url('./assets/font/Inter-VariableFont_opsz,wght.ttf');
+    font-family: 'Bubblez';   
+    src: url('./assets/font/Bubblez-Regular.ttf');
 }
-body{
-    font-family: 'Inter';
+.logo{
+    background: linear-gradient(to right, #264467 0%, #264467 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
