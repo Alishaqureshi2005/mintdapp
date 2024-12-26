@@ -1,5 +1,5 @@
 import Count from "../../component/count"
-import Slider from "../../component/slider"
+import HeroMain from "../../component/heroMain"
 const Page3 = () => {
   return (
     <>
@@ -36,7 +36,7 @@ const Page3 = () => {
         </div>
 
         <div className="w-full lg:w-2/5 h-[300px] lg:h-full">
-          <Slider/>
+          <HeroMain/>
         </div>
       </div>
     </div>
