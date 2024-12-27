@@ -5,7 +5,7 @@ import Navigator from "./config/Navigator"
 const App = () => {
   return (
     <BrowserRouter>
-    <div className="uppercase font-['Bubblez']">
+    <div className="uppercase font-['Dinofiles'] font-light">
       <Navbar />
       <Navigator />
     </div>

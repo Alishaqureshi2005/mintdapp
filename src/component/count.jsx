@@ -8,7 +8,7 @@ const Count = () => {
     
     const getColors = () => {
         switch(location.pathname) {
-            case '/page3':
+            case '/minit':
                 return { border: 'blue-500', text: 'blue-500' };
             default:
                 return { border: 'white', text: 'white' };

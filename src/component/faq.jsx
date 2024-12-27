@@ -8,7 +8,7 @@ const FaqItem = ({ question, answer }) => {
           className="w-full px-6 py-4 text-left flex justify-between items-center "
           onClick={() => setIsOpen(!isOpen)}
         >
-          <span className="font-medium">{question}</span>
+          <span className="font-light text-xl">{question}</span>
           <span className={`transform transition-transform bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center ${isOpen ? 'rotate-180' : ''}`}>
             <FaAngleDown/>
           </span>

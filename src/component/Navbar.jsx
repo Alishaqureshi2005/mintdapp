@@ -10,7 +10,7 @@ const Navbar = () => {
           {location.pathname !== '/' && (
             <button className="bg-blue-500 uppercase text-white px-2 md:px-4 py-1 md:py-2 rounded-full whitespace-nowrap">Free Download</button>
           )}
-          <Link to="/wallet" className={`border border-blue-500 uppercase ${location.pathname === '/' ? 'bg-white' : ''} text-blue-500 px-2 md:px-4 py-1 md:py-2 rounded-full whitespace-nowrap`}>Connect Wallet</Link>
+          <Link to="/wallet" className={`border border-blue-400 font-light uppercase ${location.pathname === '/' ? 'bg-white' : ''} text-[#4DA2FF] px-2 md:px-4 py-1 md:py-2 rounded-full whitespace-nowrap`}>Connect Wallet</Link>
         </div>
       </div>
     </nav>

@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom"
-import { Wallet, Home, Page3 } from "../pages"
+import { Wallet, Home, Minit } from "../pages"
 
 const Navigator = () => {
   return (
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/page3" element={<Page3 />} />
+        <Route path="/minit" element={<Minit />} />
         <Route path="/wallet" element={<Wallet />} />
     </Routes>
   )

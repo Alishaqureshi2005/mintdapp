@@ -1,11 +1,11 @@
 import Count from "../../component/count"
 import HeroMain from "../../component/heroMain"
-const Page3 = () => {
+const Minit = () => {
   return (
     <>
     <div className="flex flex-col justify-center items-center w-full min-h-screen p-4">
       
-      <div className="w-full flex flex-col gap-8 lg:flex-row lg:gap-4 justify-center items-center">
+      <div className="w-full flex flex-col gap-8 lg:flex-row lg:gap-4 justify-center items-center pt-20">
         <div className="w-full text-center lg:text-left lg:w-2/5 flex flex-col">
         <div className="flex justify-center lg:justify-start flex-row lg:flex-col">       
           <h1 className="text-3xl lg:text-5xl text-blue-950">I&apos;M REX</h1>
@@ -43,4 +43,4 @@ const Page3 = () => {
     </>
   )
 }
-export default Page3
+export default Minit

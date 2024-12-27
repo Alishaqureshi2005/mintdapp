@@ -3,6 +3,7 @@ import { FaYoutube } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { BiLogoTiktok } from "react-icons/bi";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -21,13 +22,12 @@ const Footer = () => {
     
         <div className="text-l ">
             <ul className="flex gap-2">
-                <li>HOME</li>
+                <li><Link to="/">HOME</Link></li>
                 <li>NEWs</li>
                 <li>ABOUT</li>
-                <li>CONTACT</li>
+                <li><Link to="/wallet">CONTACT</Link></li>
                 <li>CONNECTUS</li>
-                <li>TO</li>
-                <li>MINT</li>
+                <li><Link to="/minit">To MINT</Link></li>
 
             </ul>
             </div>
